@@ -1,0 +1,94 @@
+name: demoroot
+channels: !!python/tuple
+- !!python/unicode 'defaults'
+dependencies:
+- appnope=0.1.0=py27_0
+- backports=1.0=py27_0
+- backports_abc=0.4=py27_0
+- conda-forge::anaconda-client=1.5.1=py27_0
+- conda-forge::clyent=1.2.1=py27_0
+- conda-forge::python-dateutil=2.5.3=py27_0
+- conda-forge::pytz=2016.7=py27_0
+- conda-forge::pyyaml=3.11=py27_0
+- conda-forge::requests=2.11.1=py27_0
+- conda-forge::six=1.10.0=py27_0
+- conda-forge::yaml=0.1.6=0
+- configparser=3.5.0=py27_0
+- decorator=4.0.10=py27_0
+- entrypoints=0.2.2=py27_0
+- enum34=1.1.6=py27_0
+- freetype=2.5.5=1
+- functools32=3.2.3.2=py27_0
+- get_terminal_size=1.0.0=py27_0
+- hdf5=1.8.17=1
+- ipykernel=4.5.0=py27_0
+- ipython=5.1.0=py27_0
+- ipython_genutils=0.1.0=py27_0
+- jinja2=2.8=py27_1
+- jsonschema=2.5.1=py27_0
+- jupyter_client=4.4.0=py27_0
+- jupyter_core=4.2.0=py27_0
+- krb5=1.13.2=0
+- libpng=1.6.22=0
+- libxml2=2.9.2=0
+- markupsafe=0.23=py27_2
+- mistune=0.7.3=py27_1
+- mkl=11.3.3=0
+- nbconvert=4.2.0=py27_0
+- nbformat=4.1.0=py27_0
+- nlesc::fftw=3.3.4=0
+- nlesc::gsl=1.16=2
+- nlesc::libx11=2.7.7=1
+- nlesc::pcre=8.35=7
+- nlesc::root=5.34.32=py2.7_clang503
+- nlesc::root_numpy=4.4.0=root5.34.32_py2.7
+- notebook=4.2.3=py27_0
+- numexpr=2.6.1=np111py27_0
+- numpy=1.11.2=py27_0
+- openssl=1.0.2j=0
+- path.py=8.2.1=py27_0
+- pathlib2=2.1.0=py27_0
+- pexpect=4.0.1=py27_0
+- pickleshare=0.7.4=py27_0
+- pip=8.1.2=py27_0
+- prompt_toolkit=1.0.3=py27_0
+- ptyprocess=0.5.1=py27_0
+- pygments=2.1.3=py27_0
+- pytables=3.2.3.1=np111py27_0
+- python=2.7.12=1
+- python.app=1.2=py27_4
+- pyzmq=15.4.0=py27_0
+- readline=6.2=2
+- setuptools=27.2.0=py27_0
+- simplegeneric=0.8.1=py27_1
+- singledispatch=3.4.0.3=py27_0
+- sqlite=3.13.0=0
+- ssl_match_hostname=3.4.0.2=py27_1
+- terminado=0.6=py27_0
+- tk=8.5.18=0
+- tornado=4.4.2=py27_0
+- traitlets=4.3.1=py27_0
+- wcwidth=0.1.7=py27_0
+- wheel=0.29.0=py27_0
+- xz=5.2.2=0
+- zlib=1.2.8=3
+- pip:
+  - amqp==1.4.9
+  - anyjson==0.3.3
+  - backports-abc==0.4
+  - backports.shutil-get-terminal-size==1.0.0
+  - backports.ssl-match-hostname==3.4.0.2
+  - billiard==3.3.0.23
+  - celery==3.1.24
+  - ipython-genutils==0.1.0
+  - jupyter-client==4.4.0
+  - jupyter-core==4.2.0
+  - kombu==3.0.37
+  - prompt-toolkit==1.0.3
+  - root-numpy==4.4.0.dev0
+  - rootpy==0.8.3
+  - scipy==0.18.0
+  - tables==3.2.3.1
+  - vine==1.1.2
+prefix: /Users/polina/miniconda2/envs/demoroot
+
