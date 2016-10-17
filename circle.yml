@@ -5,7 +5,7 @@ machine:
   services:
     - docker
   environment:
-    RUN_NOTEBOOK: jpsi
+    RUN_NOTEBOOK: ipynb
 
 dependencies:
   override:
