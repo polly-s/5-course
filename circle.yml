@@ -16,5 +16,5 @@ dependencies:
 test:
   override:
     - docker run -ti --rm -e OPENMLKEY=$OPENMLKEY -v `pwd`:/notebooks mystudy bash --login -c
-        "cd /notebooks/; jupyter nbconvert --to html --ExecutePreprocessor.timeout=-1 --execute $RUN_NOTEBOOK.ipynb"
+        "cd /notebooks/; jupyter nbconvert --to html --ExecutePreprocessor.timeout=-1 --execute $RUN_NOTEBOOK.ipynb" 
    
