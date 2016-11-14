@@ -19,5 +19,5 @@ test:
         "cd /notebooks/; jupyter nbconvert --to html --ExecutePreprocessor.timeout=-1 --execute $RUN_NOTEBOOK.ipynb" 
     - mv $RUN_NOTEBOOK.html $CIRCLE_ARTIFACTS
     
-    jupyter-nbconvert --execute
+    
    
